@@ -85,3 +85,35 @@ Understanding constructors and destructors is essential for:
 - Building **scalable and reusable** C++ software components.
 
 ---
+## Program 1:
+This program demonstrates a simple use of a class in C++ to input and display student information using a constructor and a member function.
+
+
+## Step-wise Algorithm
+
+**Step-1:** Start the program.
+
+**Step-2:** Define a class named `student` with private data members:  
+- `rollno` (integer)  
+- `name` (character array)  
+- `fee` (double)  
+
+**Step-3:** Create a constructor for the class that:  
+- Asks the user to enter the roll number and stores it.  
+- Asks the user to enter the name and stores it.  
+- Asks the user to enter the fee and stores it.  
+
+**Step-4:** Define a member function `display()` that prints:  
+- The roll number  
+- The name  
+- The fee  
+
+**Step-5:** In the `main()` function:  
+- Create an object of the class `student` (which calls the constructor).  
+- Call the `display()` function using the object.  
+
+**Step-6:** End the program.
+
+---
+
+
