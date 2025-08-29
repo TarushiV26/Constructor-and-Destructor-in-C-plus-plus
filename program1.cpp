@@ -1,3 +1,4 @@
+//default class constructor inside class 
 #include <iostream>
 using namespace std;
 
